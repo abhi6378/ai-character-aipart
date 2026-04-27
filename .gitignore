@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Secrets / credentials
+*service-account*.json
+*gcp*.json
+*credentials*.json
+*secret*.json
+*key*.txt
+openai_key.txt
+langsmith_key.txt
+
+# Local files
+.local/
+tmp/
+temp/
+debug/
+logs/
+*.log
+
+# Generated media
+*.wav
+*.mp3
+*.mp4
+*.m4a
+*.ogg
+generated_audio/
+reference_audio/
+uploads/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
